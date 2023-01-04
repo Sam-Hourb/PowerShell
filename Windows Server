@@ -7,5 +7,7 @@
 # To convert a full GUI server installation to server core use the following command
 > Unistall-WindowsFeature Server-Gui-Mgmt-Infra, Server-Gui-Shell -Restart
 
+# NIC teaming
+> New-NetLbfoTeam -Name <team name> -TeamMembers <NIC1, NIC2, ...> [TeamingMode LACP|Static|Switchdependent][-LoadBalancingAlgorithm Transports|IPAdresses|MACAddresses|HyperVPort]
 
 
