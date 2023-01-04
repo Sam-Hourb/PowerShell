@@ -1,10 +1,10 @@
-To rename a computer
+# To rename a computer
 > Rename-Computer -ComputerName <current computer name> -NewName <new name>
 
-To convert a windows server 2012 and above server core installation to the full GUI option
+# To convert a windows server 2012 and above server core installation to the full GUI option
 > Install-WindowsFeature Server-Gui-Mgmt-Infra, Server-Gui-Shell - restart
 
-To convert a full GUI server installation to server core use the following command
+# To convert a full GUI server installation to server core use the following command
 > Unistall-WindowsFeature Server-Gui-Mgmt-Infra, Server-Gui-Shell -Restart
 
 
