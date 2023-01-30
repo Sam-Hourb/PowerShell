@@ -1,0 +1,2 @@
+// to see if an interface card is in promiscuous mode
+Get-NetAdapter | Format-List -Property PromiscuousMode
