@@ -1,3 +1,6 @@
+# To enable a hyper-v virtual machine to run hyper-v 
+Set-VMProcessor -ExposeVirtualizationExtension $true
+
 # To rename a computer
 > Rename-Computer -ComputerName <current computer name> -NewName <new name>
 
