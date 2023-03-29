@@ -1,3 +1,6 @@
+# To do feature on demand, removing unnecessary payload from a local machine
+uninstall-windowsfeature -name gpmc -remove
+
 # To do feature on demand, removing unnecessary payload from a virtual hard disk
 uninstall-windowsfeature -name gpmc "<path to the virtual hard disk>" -remove
 
