@@ -1,3 +1,8 @@
+# To do mininmal server interface.
+uninstall-windowsfeature server-gui-shell -whatif   # to see if there is programs or application depending on windows gui. 
+uninstall-windowsfeature server-gui-shell
+
+
 # To do feature on demand, removing unnecessary payload from a local machine
 uninstall-windowsfeature -name gpmc -remove
 
