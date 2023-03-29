@@ -1,3 +1,7 @@
+#To install a role or feature on an offle virtual hard disk 
+get-windowsfeature  # To see the name of all of the features that can be install on server. 
+install-windowsfeature <dns> "<path to the virtual hard disk>"
+
 # To do mininmal server interface.
 uninstall-windowsfeature server-gui-shell -whatif   # to see if there is programs or application depending on windows gui. 
 uninstall-windowsfeature server-gui-shell
